@@ -6,7 +6,7 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/michaelwasher/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
@@ -27,7 +27,6 @@ homebrew_installed_packages:
   - github/gh/gh
   - go
   - gpg
-  - httpie
   - iperf
   - libevent
   - sqlite
@@ -43,6 +42,17 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - tmux
+  - zsh
+  - git
+  - python3
+  - python
+  - neovim
+  - universal-ctags/universal-ctags/universal-ctags
+  - ripgrep
+  - bat
+  - kubernetes-cli
+  - awscli
 
 homebrew_taps:
   - homebrew/core
@@ -50,20 +60,34 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - dropbox
   - firefox
-  - google-chrome
-  - handbrake
-  - licecap
-  - macvim
-  - sequel-pro
-  - skitch
-  - slack
-  - sublime-text
-  - transmit
+  - balenaetcher
+  - keepassxc
+  - karabiner-elements
+  - barrier
   - vagrant
+  - tunnelblick
+  - nordvpn
+  - microsoft-office
+  - messenger-native
+  - google-backup-and-sync
+  - cyberduck
+  - virtualbox
+  - virtualbox-extension-pack
+  - visual-studio-code
+  - vlc
+  - slack
+  - flux
+  - docker
+  - parallels
+  # JetBrains IDEs
+  - pycharm
+  - intellij-idea
+  - webstorm
+  # Steam
+  - steam
+  - sublime-text
+  - wireshark
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
